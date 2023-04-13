@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="TIPO_DEL_POKEMON" directorySegmentName="seg_0" id="C771248B-D4C1-EC9E-D068-21D6DBA4B52C">
+<createdBy>dvb20</createdBy>
+<createdTime>2023-04-13 10:05:15 UTC</createdTime>
+<ownerDesignName>dmd</ownerDesignName>
+<engineerTo>
+<item key="07EFF974-1626-F660-56AE-06603DBAA287" value="true"/>
+</engineerTo>
+<sourcePk>0CEC2C93-98D0-B29F-AC18-FF468351CA8A</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>98E7B76F-0F14-526E-534A-A3974C090017</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>2031FDCA-17B3-87A6-A559-5F05EEEB5D18</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="08072BC2-58F8-6B68-2B18-69254540F563" name="TIPO">
+<createdBy>dvb20</createdBy>
+<createdTime>2023-04-13 09:49:54 UTC</createdTime>
+<ownerDesignName>dmd</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_TIPO" id="B2AB7EBB-6E41-E714-A44F-A37C504E7A4D">
+<createdBy>dvb20</createdBy>
+<createdTime>2023-04-13 09:52:29 UTC</createdTime>
+<ownerDesignName>dmd</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_TIPO" id="1DDEF1B8-949A-313F-E9E7-94A0E349702B">
+<createdBy>dvb20</createdBy>
+<createdTime>2023-04-13 09:52:29 UTC</createdTime>
+<ownerDesignName>dmd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CANTIDAD_POKEMON_TIPO" id="C70554A9-2C32-2254-D85D-EDF169CE5BA7">
+<createdBy>dvb20</createdBy>
+<createdTime>2023-04-13 09:52:29 UTC</createdTime>
+<ownerDesignName>dmd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CARACTERISTICAS" id="4AA04650-D533-3DA4-0EED-9F0F556262BA">
+<createdBy>dvb20</createdBy>
+<createdTime>2023-04-13 09:52:29 UTC</createdTime>
+<ownerDesignName>dmd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FORTALEZAS" id="4B5D32AD-BD02-D857-ABE9-A37D2726931A">
+<createdBy>dvb20</createdBy>
+<createdTime>2023-04-13 09:52:29 UTC</createdTime>
+<ownerDesignName>dmd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DEBILIDADES" id="50AB929F-29E1-D587-4404-EE0D5C8D0B67">
+<createdBy>dvb20</createdBy>
+<createdTime>2023-04-13 09:52:29 UTC</createdTime>
+<ownerDesignName>dmd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="04C19298-5FE9-F63B-72C4-E1DFA7B086AB" name="TIPO_PK">
+<createdBy>dvb20</createdBy>
+<createdTime>2023-04-13 09:52:29 UTC</createdTime>
+<ownerDesignName>dmd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B2AB7EBB-6E41-E714-A44F-A37C504E7A4D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

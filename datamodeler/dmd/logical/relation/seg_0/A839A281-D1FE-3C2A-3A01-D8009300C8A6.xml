@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ATAQUES_DEL_POKEMON" directorySegmentName="seg_0" id="A839A281-D1FE-3C2A-3A01-D8009300C8A6">
+<createdBy>dvb20</createdBy>
+<createdTime>2023-04-13 10:02:35 UTC</createdTime>
+<ownerDesignName>dmd</ownerDesignName>
+<engineerTo>
+<item key="07EFF974-1626-F660-56AE-06603DBAA287" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>98E7B76F-0F14-526E-534A-A3974C090017</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>495F7ACB-9729-CFCD-D86E-892CD1890684</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

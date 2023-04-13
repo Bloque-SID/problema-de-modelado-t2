@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8CAAF50A-EF91-2F28-EDF9-6084C8900DF3" name="POKEDEX">
+<createdBy>dvb20</createdBy>
+<createdTime>2023-04-13 09:59:16 UTC</createdTime>
+<generatorID>02954726-6E61-7AC8-2864-A09A13BD523E</generatorID>
+<ownerDesignName>dmd</ownerDesignName>
+<engineerTo>
+<item key="07EFF974-1626-F660-56AE-06603DBAA287" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID POKEMON" id="B64CE220-C821-DA1C-1FDF-774F3186C474">
+<createdBy>dvb20</createdBy>
+<createdTime>2023-04-13 09:59:16 UTC</createdTime>
+<generatorID>6460C4C4-7A2B-5C86-44FE-E1A6C5D77F15</generatorID>
+<ownerDesignName>dmd</ownerDesignName>
+<engineerTo>
+<item key="07EFF974-1626-F660-56AE-06603DBAA287" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE POKEMON" id="1906D115-C5BF-62BB-5196-0FCAEE808A68">
+<createdBy>dvb20</createdBy>
+<createdTime>2023-04-13 09:59:16 UTC</createdTime>
+<generatorID>3844FD12-C35B-65BD-C590-E3F39D172985</generatorID>
+<ownerDesignName>dmd</ownerDesignName>
+<engineerTo>
+<item key="07EFF974-1626-F660-56AE-06603DBAA287" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CANTIDAD PKEMON POKEDEX" id="E963ED83-1EF8-6002-7553-C3DFD29B35C1">
+<createdBy>dvb20</createdBy>
+<createdTime>2023-04-13 09:59:16 UTC</createdTime>
+<generatorID>1925468E-CFD6-B23A-E25D-E577B2097442</generatorID>
+<ownerDesignName>dmd</ownerDesignName>
+<engineerTo>
+<item key="07EFF974-1626-F660-56AE-06603DBAA287" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CARACTERISTICAS" id="AFC005E3-74F3-E663-0187-0CFB42BA72A9">
+<createdBy>dvb20</createdBy>
+<createdTime>2023-04-13 09:59:16 UTC</createdTime>
+<generatorID>F34A9688-5355-A39A-3F36-FAD00E646E17</generatorID>
+<ownerDesignName>dmd</ownerDesignName>
+<engineerTo>
+<item key="07EFF974-1626-F660-56AE-06603DBAA287" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DESCRIPCION" id="D21D6D7A-0B82-5797-172F-C1086290BB30">
+<createdBy>dvb20</createdBy>
+<createdTime>2023-04-13 09:59:16 UTC</createdTime>
+<generatorID>A4C81BE0-0919-53F0-B289-CBE3F934EDC1</generatorID>
+<ownerDesignName>dmd</ownerDesignName>
+<engineerTo>
+<item key="07EFF974-1626-F660-56AE-06603DBAA287" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="844EBEF0-BDF9-0C9E-D018-7D1414516640" name="POKEDEX PK">
+<createdBy>dvb20</createdBy>
+<createdTime>2023-04-13 09:59:16 UTC</createdTime>
+<generatorID>3B120B5B-66B3-9D4C-8AB7-AC6B968964D0</generatorID>
+<ownerDesignName>dmd</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="07EFF974-1626-F660-56AE-06603DBAA287" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B64CE220-C821-DA1C-1FDF-774F3186C474</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

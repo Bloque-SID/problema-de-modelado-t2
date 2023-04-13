@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="98E7B76F-0F14-526E-534A-A3974C090017" name="Pokemon">
+<createdBy>dvb20</createdBy>
+<createdTime>2023-04-13 09:59:16 UTC</createdTime>
+<generatorID>7EC65513-2A65-7063-05BD-9CA1F2CB9C9B</generatorID>
+<ownerDesignName>dmd</ownerDesignName>
+<engineerTo>
+<item key="07EFF974-1626-F660-56AE-06603DBAA287" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID POKEMON" id="702A1F5A-F716-FCFE-321B-5C0C590D89F7">
+<createdBy>dvb20</createdBy>
+<createdTime>2023-04-13 09:59:16 UTC</createdTime>
+<generatorID>253D9A7C-84B7-67ED-0CB9-49CC1C4C5CCA</generatorID>
+<ownerDesignName>dmd</ownerDesignName>
+<engineerTo>
+<item key="07EFF974-1626-F660-56AE-06603DBAA287" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE POKEMON" id="DB623055-71BB-3AAF-28EB-B72632C25894">
+<createdBy>dvb20</createdBy>
+<createdTime>2023-04-13 09:59:16 UTC</createdTime>
+<generatorID>3783196D-D843-4572-E249-CDA74375C9C5</generatorID>
+<ownerDesignName>dmd</ownerDesignName>
+<engineerTo>
+<item key="07EFF974-1626-F660-56AE-06603DBAA287" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="HABILIDADES" id="CDCFAA92-C2E3-62E4-0BF5-7591E5609CB1">
+<createdBy>dvb20</createdBy>
+<createdTime>2023-04-13 09:59:16 UTC</createdTime>
+<generatorID>B9759DF8-147A-D50B-F930-DA315B5F4703</generatorID>
+<ownerDesignName>dmd</ownerDesignName>
+<engineerTo>
+<item key="07EFF974-1626-F660-56AE-06603DBAA287" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ESTADISTICAS" id="D47F9794-7F94-926D-18AC-286F1E73D548">
+<createdBy>dvb20</createdBy>
+<createdTime>2023-04-13 09:59:16 UTC</createdTime>
+<generatorID>C5C35D30-E8D7-3D17-26F7-5EE180C0F5F7</generatorID>
+<ownerDesignName>dmd</ownerDesignName>
+<engineerTo>
+<item key="07EFF974-1626-F660-56AE-06603DBAA287" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EVOLUCIONES" id="9D6FCBF2-C00E-6034-7FA7-6D31907D8757">
+<createdBy>dvb20</createdBy>
+<createdTime>2023-04-13 09:59:16 UTC</createdTime>
+<generatorID>88FD383C-2BCD-DE85-4152-19BA5ED9546F</generatorID>
+<ownerDesignName>dmd</ownerDesignName>
+<engineerTo>
+<item key="07EFF974-1626-F660-56AE-06603DBAA287" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_ENTRENADOR" id="E6F875F3-1A08-552D-2494-9BFD8AE9512E">
+<createdBy>dvb20</createdBy>
+<createdTime>2023-04-13 10:15:19 UTC</createdTime>
+<generatorID>AC5CA87D-0F3B-FFE2-369C-4E39BFB0ECDC</generatorID>
+<ownerDesignName>dmd</ownerDesignName>
+<engineerTo>
+<item key="07EFF974-1626-F660-56AE-06603DBAA287" value="true"/>
+</engineerTo>
+<referedAttribute>D0849B09-A41A-47E3-EAB0-9612EED8C373</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0CEC2C93-98D0-B29F-AC18-FF468351CA8A" name="Pokemon PK">
+<createdBy>dvb20</createdBy>
+<createdTime>2023-04-13 09:59:16 UTC</createdTime>
+<generatorID>3B126A5B-74C5-D7A9-9DF7-B2D44BDB31A1</generatorID>
+<ownerDesignName>dmd</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="07EFF974-1626-F660-56AE-06603DBAA287" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>702A1F5A-F716-FCFE-321B-5C0C590D89F7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

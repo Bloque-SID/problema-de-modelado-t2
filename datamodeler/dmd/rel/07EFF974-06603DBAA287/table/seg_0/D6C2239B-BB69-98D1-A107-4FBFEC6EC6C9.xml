@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D6C2239B-BB69-98D1-A107-4FBFEC6EC6C9" name="ATAQUE">
+<createdBy>dvb20</createdBy>
+<createdTime>2023-04-13 09:42:50 UTC</createdTime>
+<ownerDesignName>dmd</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_ATAQUE" id="4D85B7A8-2790-A4FA-F4A5-BA43817760D7">
+<createdBy>dvb20</createdBy>
+<createdTime>2023-04-13 09:49:24 UTC</createdTime>
+<ownerDesignName>dmd</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_ATAQUE" id="C8AE3897-7641-CAF1-72A1-BE6792615140">
+<createdBy>dvb20</createdBy>
+<createdTime>2023-04-13 09:49:24 UTC</createdTime>
+<ownerDesignName>dmd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO_ATAQUE" id="42B14276-4CBE-233A-4058-915664AA4907">
+<createdBy>dvb20</createdBy>
+<createdTime>2023-04-13 09:49:24 UTC</createdTime>
+<ownerDesignName>dmd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="POTENCIA" id="F85503F7-7471-B9E2-2BA3-6A538EA34093">
+<createdBy>dvb20</createdBy>
+<createdTime>2023-04-13 09:49:42 UTC</createdTime>
+<ownerDesignName>dmd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRECICSION" id="409BBDD3-9743-2446-4F34-7CFC3F76EF86">
+<createdBy>dvb20</createdBy>
+<createdTime>2023-04-13 09:49:52 UTC</createdTime>
+<ownerDesignName>dmd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3986D291-3320-B621-C715-5C8A2A5413D4" name="ATAQUE_PK">
+<createdBy>dvb20</createdBy>
+<createdTime>2023-04-13 09:53:48 UTC</createdTime>
+<ownerDesignName>dmd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4D85B7A8-2790-A4FA-F4A5-BA43817760D7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
