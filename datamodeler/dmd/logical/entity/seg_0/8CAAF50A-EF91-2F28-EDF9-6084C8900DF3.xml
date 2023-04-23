@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8CAAF50A-EF91-2F28-EDF9-6084C8900DF3" name="POKEDEX">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8CAAF50A-EF91-2F28-EDF9-6084C8900DF3" name="Pokedex">
 <createdBy>dvb20</createdBy>
 <createdTime>2023-04-13 09:59:16 UTC</createdTime>
 <generatorID>02954726-6E61-7AC8-2864-A09A13BD523E</generatorID>
@@ -16,7 +16,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID POKEMON" id="B64CE220-C821-DA1C-1FDF-774F3186C474">
+<Attribute name="ID" id="B64CE220-C821-DA1C-1FDF-774F3186C474">
 <createdBy>dvb20</createdBy>
 <createdTime>2023-04-13 09:59:16 UTC</createdTime>
 <generatorID>6460C4C4-7A2B-5C86-44FE-E1A6C5D77F15</generatorID>
@@ -24,10 +24,12 @@
 <engineerTo>
 <item key="07EFF974-1626-F660-56AE-06603DBAA287" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="NOMBRE POKEMON" id="1906D115-C5BF-62BB-5196-0FCAEE808A68">
+<Attribute name="name" id="1906D115-C5BF-62BB-5196-0FCAEE808A68">
 <createdBy>dvb20</createdBy>
 <createdTime>2023-04-13 09:59:16 UTC</createdTime>
 <generatorID>3844FD12-C35B-65BD-C590-E3F39D172985</generatorID>
@@ -36,8 +38,11 @@
 <item key="07EFF974-1626-F660-56AE-06603DBAA287" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="CANTIDAD PKEMON POKEDEX" id="E963ED83-1EF8-6002-7553-C3DFD29B35C1">
 <createdBy>dvb20</createdBy>
@@ -73,6 +78,20 @@
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Region ID" id="B548B086-FDEF-8B35-4BE3-2A91DEAD04DE">
+<createdBy>usuario</createdBy>
+<createdTime>2023-04-23 18:16:20 UTC</createdTime>
+<generatorID>390CCDD5-80AF-594B-E738-89ACE453828A</generatorID>
+<ownerDesignName>dmd</ownerDesignName>
+<engineerTo>
+<item key="07EFF974-1626-F660-56AE-06603DBAA287" value="true"/>
+</engineerTo>
+<referedAttribute>F3DC3959-EE9F-B31F-9829-5AAA49E38F11</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

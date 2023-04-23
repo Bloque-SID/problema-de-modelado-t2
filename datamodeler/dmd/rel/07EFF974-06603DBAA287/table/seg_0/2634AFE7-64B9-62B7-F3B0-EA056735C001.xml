@@ -1,60 +1,36 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2634AFE7-64B9-62B7-F3B0-EA056735C001" name="ENTRENADOR">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2634AFE7-64B9-62B7-F3B0-EA056735C001" name="Trainner">
 <createdBy>dvb20</createdBy>
 <createdTime>2023-04-13 10:04:19 UTC</createdTime>
 <generatorID>64819FC6-8A84-F6BA-D38D-572DF1F65F8D</generatorID>
 <ownerDesignName>dmd</ownerDesignName>
+<ordsAlias>entrenador</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="ID_ENTRENADOR" id="BEAFA4C1-5540-780D-6C08-2DAEB24CBD70">
+<Column name="ID" id="BEAFA4C1-5540-780D-6C08-2DAEB24CBD70">
 <createdBy>dvb20</createdBy>
 <createdTime>2023-04-13 10:04:19 UTC</createdTime>
 <generatorID>D0849B09-A41A-47E3-EAB0-9612EED8C373</generatorID>
 <ownerDesignName>dmd</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="NOMBRE_ENTRENADOR" id="2F8A7B46-7743-C170-399C-19ADE3B5D0FB">
+<Column name="name" id="2F8A7B46-7743-C170-399C-19ADE3B5D0FB">
 <createdBy>dvb20</createdBy>
 <createdTime>2023-04-13 10:04:19 UTC</createdTime>
 <generatorID>73127910-2A28-E31E-4E1E-23231F8CFCCF</generatorID>
 <ownerDesignName>dmd</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="GENERO" id="462D4534-E80E-26B5-34DB-CC0257389E35">
-<createdBy>dvb20</createdBy>
-<createdTime>2023-04-13 10:04:19 UTC</createdTime>
-<generatorID>8231BEE8-153F-658A-5CD1-722232120AB2</generatorID>
-<ownerDesignName>dmd</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="EDAD" id="ADB0D938-157F-CB85-9F8A-59CDEEAD19C2">
-<createdBy>dvb20</createdBy>
-<createdTime>2023-04-13 10:04:19 UTC</createdTime>
-<generatorID>7DB348FB-28C6-DA06-EC97-32840CF48D84</generatorID>
-<ownerDesignName>dmd</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="UBICACION" id="FECBFC99-3933-4F27-B473-E527155A0F1F">
-<createdBy>dvb20</createdBy>
-<createdTime>2023-04-13 10:04:19 UTC</createdTime>
-<generatorID>72D442E2-697D-6279-45EC-2E3F0D4418D6</generatorID>
-<ownerDesignName>dmd</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>

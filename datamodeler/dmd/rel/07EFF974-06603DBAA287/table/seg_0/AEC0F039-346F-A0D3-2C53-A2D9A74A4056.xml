@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AEC0F039-346F-A0D3-2C53-A2D9A74A4056" name="HaveType">
+<createdBy>usuario</createdBy>
+<createdTime>2023-04-23 16:09:56 UTC</createdTime>
+<ownerDesignName>dmd</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Type_ID" id="EB6ACC2F-5FD1-B07F-B3AF-5B89BEE45BC4">
+<createdBy>usuario</createdBy>
+<createdTime>2023-04-23 16:10:30 UTC</createdTime>
+<ownerDesignName>dmd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8A8D8382-8CAC-5B6F-695D-30330D49733D" referredColumn="B2AB7EBB-6E41-E714-A44F-A37C504E7A4D"/>
+</associations>
+</Column>
+<Column name="Pokedex_ID" id="09BDD3A1-2A8B-606E-27A4-3C10BD8424EE">
+<createdBy>usuario</createdBy>
+<createdTime>2023-04-23 16:11:12 UTC</createdTime>
+<ownerDesignName>dmd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2949A409-FC59-9D31-3B3F-5EA28190FC4F" referredColumn="6460C4C4-7A2B-5C86-44FE-E1A6C5D77F15"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="26212C0B-D37D-492E-0B6C-C2B47DBB8700" name="Type">
+<createdBy>usuario</createdBy>
+<createdTime>2023-04-23 16:10:30 UTC</createdTime>
+<ownerDesignName>dmd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EB6ACC2F-5FD1-B07F-B3AF-5B89BEE45BC4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A5A6911A-D06D-FFB9-1FB1-CA0C18F8AADA" name="Pokemon">
+<createdBy>usuario</createdBy>
+<createdTime>2023-04-23 16:11:12 UTC</createdTime>
+<ownerDesignName>dmd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="09BDD3A1-2A8B-606E-27A4-3C10BD8424EE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

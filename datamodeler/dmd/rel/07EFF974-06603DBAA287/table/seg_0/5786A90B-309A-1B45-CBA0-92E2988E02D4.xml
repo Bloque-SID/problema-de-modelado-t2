@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="08072BC2-58F8-6B68-2B18-69254540F563" name="Type">
-<createdBy>dvb20</createdBy>
-<createdTime>2023-04-13 09:49:54 UTC</createdTime>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5786A90B-309A-1B45-CBA0-92E2988E02D4" name="Region">
+<createdBy>usuario</createdBy>
+<createdTime>2023-04-23 15:33:18 UTC</createdTime>
 <ownerDesignName>dmd</ownerDesignName>
-<ordsAlias>table_4</ordsAlias>
+<ordsAlias>table_7</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="ID" id="B2AB7EBB-6E41-E714-A44F-A37C504E7A4D">
-<createdBy>dvb20</createdBy>
-<createdTime>2023-04-13 09:52:29 UTC</createdTime>
+<Column name="ID" id="F4BF0831-640C-CF89-EE62-8906A2DF17E2">
+<createdBy>usuario</createdBy>
+<createdTime>2023-04-23 15:34:11 UTC</createdTime>
 <ownerDesignName>dmd</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,29 +18,29 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="name" id="1DDEF1B8-949A-313F-E9E7-94A0E349702B">
-<createdBy>dvb20</createdBy>
-<createdTime>2023-04-13 09:52:29 UTC</createdTime>
+<Column name="name" id="44B8A1A2-C7A7-205B-6F6A-C35187054D0D">
+<createdBy>usuario</createdBy>
+<createdTime>2023-04-23 15:34:11 UTC</createdTime>
 <ownerDesignName>dmd</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>15</dataTypeSize>
-<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="04C19298-5FE9-F63B-72C4-E1DFA7B086AB" name="TIPO_PK">
-<createdBy>dvb20</createdBy>
-<createdTime>2023-04-13 09:52:29 UTC</createdTime>
+<ind_PK_UK id="2118E89A-089A-17C1-ED62-3BABE2CFD9FC" name="Region_PK">
+<createdBy>usuario</createdBy>
+<createdTime>2023-04-23 15:34:11 UTC</createdTime>
 <ownerDesignName>dmd</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="B2AB7EBB-6E41-E714-A44F-A37C504E7A4D"/>
+<colUsage columnID="F4BF0831-640C-CF89-EE62-8906A2DF17E2"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

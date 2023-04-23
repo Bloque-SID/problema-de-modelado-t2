@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8CC9A6CB-ACE4-E28C-F361-87C45A6FB500" name="Weaknesses and Strengths">
+<createdBy>usuario</createdBy>
+<createdTime>2023-04-23 18:16:20 UTC</createdTime>
+<generatorID>35057F1D-3356-6DF1-A1E4-13C45D3DC5EF</generatorID>
+<ownerDesignName>dmd</ownerDesignName>
+<engineerTo>
+<item key="07EFF974-1626-F660-56AE-06603DBAA287" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="A63A1727-57FE-17CD-83B9-DCFD17A954C6">
+<createdBy>usuario</createdBy>
+<createdTime>2023-04-23 18:16:20 UTC</createdTime>
+<generatorID>7AC35E3F-FFCE-B2B7-032F-F64CD49A34F7</generatorID>
+<ownerDesignName>dmd</ownerDesignName>
+<engineerTo>
+<item key="07EFF974-1626-F660-56AE-06603DBAA287" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="damage mult to" id="3327A2AA-D71F-7BF1-2F44-4FD043953AD9">
+<createdBy>usuario</createdBy>
+<createdTime>2023-04-23 18:16:20 UTC</createdTime>
+<generatorID>3A9FEEE9-7A08-B405-8A47-DD418820D823</generatorID>
+<ownerDesignName>dmd</ownerDesignName>
+<engineerTo>
+<item key="07EFF974-1626-F660-56AE-06603DBAA287" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,2,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="damage mult from" id="506BEB70-82B6-9C17-777E-71F94E471000">
+<createdBy>usuario</createdBy>
+<createdTime>2023-04-23 18:16:20 UTC</createdTime>
+<generatorID>DDDDE671-16BA-882E-9A07-C342E65F8502</generatorID>
+<ownerDesignName>dmd</ownerDesignName>
+<engineerTo>
+<item key="07EFF974-1626-F660-56AE-06603DBAA287" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,2,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Type Main" id="A9310B6E-6A06-9AB0-6C93-58AAE37BD329">
+<createdBy>usuario</createdBy>
+<createdTime>2023-04-23 18:16:20 UTC</createdTime>
+<generatorID>79C714CE-AABB-1E8B-B17C-7C81C3308AC9</generatorID>
+<ownerDesignName>dmd</ownerDesignName>
+<engineerTo>
+<item key="07EFF974-1626-F660-56AE-06603DBAA287" value="true"/>
+</engineerTo>
+<referedAttribute>810ACBBE-0182-3A31-AE8A-C8B26C3477D7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Type Related" id="A57576AA-5E23-7C76-601D-59B264C93EC9">
+<createdBy>usuario</createdBy>
+<createdTime>2023-04-23 18:16:20 UTC</createdTime>
+<generatorID>53A1A355-2538-CF06-1363-974477DEA86C</generatorID>
+<ownerDesignName>dmd</ownerDesignName>
+<engineerTo>
+<item key="07EFF974-1626-F660-56AE-06603DBAA287" value="true"/>
+</engineerTo>
+<referedAttribute>810ACBBE-0182-3A31-AE8A-C8B26C3477D7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2F019335-6991-F66B-DB11-C4F93B61D283" name="Weaknesses and Strengths PK">
+<createdBy>usuario</createdBy>
+<createdTime>2023-04-23 18:16:20 UTC</createdTime>
+<generatorID>4B792E77-98AC-B3F0-0067-28250136CAE9</generatorID>
+<ownerDesignName>dmd</ownerDesignName>
+<engineerTo>
+<item key="07EFF974-1626-F660-56AE-06603DBAA287" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A63A1727-57FE-17CD-83B9-DCFD17A954C6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

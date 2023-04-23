@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7065D134-98E9-8B84-35D4-548E61161B33" containerWithKeyObject="7EC65513-2A65-7063-05BD-9CA1F2CB9C9B" localFKIndex="65B56C94-7DED-A34F-82B7-F0BF91A86329" name="pokedex_entry">
+<createdBy>usuario</createdBy>
+<createdTime>2023-04-23 15:58:38 UTC</createdTime>
+<ownerDesignName>dmd</ownerDesignName>
+<referredTableLongName>Pokedex</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>02954726-6E61-7AC8-2864-A09A13BD523E</referredTableID>
+<keyObject>3B120B5B-66B3-9D4C-8AB7-AC6B968964D0</keyObject>
+<referredKeyID>3B120B5B-66B3-9D4C-8AB7-AC6B968964D0</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

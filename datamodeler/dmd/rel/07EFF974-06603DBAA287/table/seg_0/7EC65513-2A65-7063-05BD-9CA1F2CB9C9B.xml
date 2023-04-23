@@ -8,7 +8,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="ID_POKEMON" id="253D9A7C-84B7-67ED-0CB9-49CC1C4C5CCA">
+<Column name="ID" id="253D9A7C-84B7-67ED-0CB9-49CC1C4C5CCA">
 <createdBy>dvb20</createdBy>
 <createdTime>2023-04-13 00:25:14 UTC</createdTime>
 <ownerDesignName>dmd</ownerDesignName>
@@ -18,49 +18,45 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="NOMBRE_POKEMON" id="3783196D-D843-4572-E249-CDA74375C9C5">
+<Column name="name" id="3783196D-D843-4572-E249-CDA74375C9C5">
 <createdBy>dvb20</createdBy>
 <createdTime>2023-04-13 00:25:14 UTC</createdTime>
 <ownerDesignName>dmd</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="HABILIDADES" id="B9759DF8-147A-D50B-F930-DA315B5F4703">
-<createdBy>dvb20</createdBy>
-<createdTime>2023-04-13 00:27:14 UTC</createdTime>
+<Column name="Trainner_ID" id="CDCF1F64-2367-5843-BDE8-51683C5D7F23">
+<createdBy>usuario</createdBy>
+<createdTime>2023-04-23 15:56:16 UTC</createdTime>
 <ownerDesignName>dmd</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT040</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="ESTADISTICAS" id="C5C35D30-E8D7-3D17-26F7-5EE180C0F5F7">
-<createdBy>dvb20</createdBy>
-<createdTime>2023-04-13 00:28:18 UTC</createdTime>
-<ownerDesignName>dmd</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E51064C4-C8F5-051E-CD04-9BF22E6AF9BA" referredColumn="BEAFA4C1-5540-780D-6C08-2DAEB24CBD70"/>
+</associations>
 </Column>
-<Column name="EVOLUCIONES" id="88FD383C-2BCD-DE85-4152-19BA5ED9546F">
-<createdBy>dvb20</createdBy>
-<createdTime>2023-04-13 00:28:33 UTC</createdTime>
+<Column name="Pokedex_ID" id="E27DA526-475D-B766-FC69-8217765E0C85">
+<createdBy>usuario</createdBy>
+<createdTime>2023-04-23 15:58:38 UTC</createdTime>
 <ownerDesignName>dmd</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT040</logicalDatatype>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7065D134-98E9-8B84-35D4-548E61161B33" referredColumn="6460C4C4-7A2B-5C86-44FE-E1A6C5D77F15"/>
+</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -73,6 +69,27 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="253D9A7C-84B7-67ED-0CB9-49CC1C4C5CCA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CFFB0CF1-5382-350F-EF9B-66C0811206C0" name="trainer">
+<createdBy>usuario</createdBy>
+<createdTime>2023-04-23 15:56:16 UTC</createdTime>
+<generatorID>1FBF9349-3C60-B59D-97F5-C57689F4482A</generatorID>
+<ownerDesignName>dmd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CDCF1F64-2367-5843-BDE8-51683C5D7F23"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="65B56C94-7DED-A34F-82B7-F0BF91A86329" name="pokedex_entry">
+<createdBy>usuario</createdBy>
+<createdTime>2023-04-23 15:58:38 UTC</createdTime>
+<ownerDesignName>dmd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E27DA526-475D-B766-FC69-8217765E0C85"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
