@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="pokemonv1v1" directorySegmentName="seg_0" id="93DE1ED1-3614-B6EA-7DF9-797EBAEB490C">
+<createdBy>usuario</createdBy>
+<createdTime>2023-04-25 20:43:16 UTC</createdTime>
+<generatorID>B77EF564-F62F-099F-F580-A3FD72DBE1F6</generatorID>
+<ownerDesignName>dmd</ownerDesignName>
+<engineerTo>
+<item key="07EFF974-1626-F660-56AE-06603DBAA287" value="true"/>
+</engineerTo>
+<sourcePk>0CEC2C93-98D0-B29F-AC18-FF468351CA8A</sourcePk>
+<dominantRole>98E7B76F-0F14-526E-534A-A3974C090017</dominantRole>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>98E7B76F-0F14-526E-534A-A3974C090017</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>0FC8A2FB-D7A5-7CB9-DCA0-DCEDD3BD2248</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

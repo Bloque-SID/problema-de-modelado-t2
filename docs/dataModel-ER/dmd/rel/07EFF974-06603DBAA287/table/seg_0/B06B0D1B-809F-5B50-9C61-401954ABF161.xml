@@ -1,0 +1,168 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B06B0D1B-809F-5B50-9C61-401954ABF161" name="BattleSet">
+<createdBy>usuario</createdBy>
+<createdTime>2023-04-25 19:34:34 UTC</createdTime>
+<ownerDesignName>dmd</ownerDesignName>
+<ordsAlias>table_10</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Pokemon_ID" id="2E84E050-FDF3-67CA-6499-9BF04C8ED477">
+<createdBy>usuario</createdBy>
+<createdTime>2023-04-25 19:35:49 UTC</createdTime>
+<ownerDesignName>dmd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B77EF564-F62F-099F-F580-A3FD72DBE1F6" referredColumn="253D9A7C-84B7-67ED-0CB9-49CC1C4C5CCA"/>
+</associations>
+</Column>
+<Column name="move1" id="4F2B606C-BAE5-73AC-20B0-21A3EF110619">
+<createdBy>usuario</createdBy>
+<createdTime>2023-04-25 20:19:19 UTC</createdTime>
+<ownerDesignName>dmd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AA8FF926-2B58-BF31-E3D1-CF7C80B7A0E6" referredColumn="4D85B7A8-2790-A4FA-F4A5-BA43817760D7"/>
+</associations>
+</Column>
+<Column name="move2" id="2940015D-359D-81E2-69AD-FBA5166C437F">
+<createdBy>usuario</createdBy>
+<createdTime>2023-04-25 20:19:33 UTC</createdTime>
+<ownerDesignName>dmd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4F7B9F9D-2673-AEEF-E06C-F01DC83F2F13" referredColumn="4D85B7A8-2790-A4FA-F4A5-BA43817760D7"/>
+</associations>
+</Column>
+<Column name="move3" id="BB8DAF6D-7131-94EA-61A6-8B3CEFFF5AD6">
+<createdBy>usuario</createdBy>
+<createdTime>2023-04-25 20:19:41 UTC</createdTime>
+<ownerDesignName>dmd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D9E7870B-5E6D-353E-FA92-3AA7A396A8E2" referredColumn="4D85B7A8-2790-A4FA-F4A5-BA43817760D7"/>
+</associations>
+</Column>
+<Column name="move4" id="3A9E4ED4-0FAF-F134-D018-C771F0DA3392">
+<createdBy>usuario</createdBy>
+<createdTime>2023-04-25 20:19:48 UTC</createdTime>
+<ownerDesignName>dmd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="546804CE-70CF-1F9D-E12B-BE9F6B52CF75" referredColumn="4D85B7A8-2790-A4FA-F4A5-BA43817760D7"/>
+</associations>
+</Column>
+<Column name="Object_ID" id="0AA63C45-DDEE-E2A4-A2F8-F8D3EFC0F0AC">
+<createdBy>usuario</createdBy>
+<createdTime>2023-04-25 20:28:08 UTC</createdTime>
+<ownerDesignName>dmd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C681DBB3-5AD2-B3BD-DF2D-1661C64C801C" referredColumn="2B28F489-7F1F-48EE-2AB5-63EA63E173B9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="98136B28-6A59-2E4F-368E-93C8AC5701D0" name="MoveSet__IDX">
+<createdBy>usuario</createdBy>
+<createdTime>2023-04-25 20:17:19 UTC</createdTime>
+<ownerDesignName>dmd</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2E84E050-FDF3-67CA-6499-9BF04C8ED477"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="009C4AD3-D0F6-5359-228F-15B8B30E26C2" name="pokemonv1">
+<createdBy>usuario</createdBy>
+<createdTime>2023-04-25 19:35:49 UTC</createdTime>
+<ownerDesignName>dmd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2E84E050-FDF3-67CA-6499-9BF04C8ED477"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3710EC69-C947-0D81-C193-BD0EE45DD27A" name="move1">
+<createdBy>usuario</createdBy>
+<createdTime>2023-04-25 20:19:19 UTC</createdTime>
+<ownerDesignName>dmd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4F2B606C-BAE5-73AC-20B0-21A3EF110619"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C8900350-9B11-3543-750F-E62429DDCE0A" name="move2">
+<createdBy>usuario</createdBy>
+<createdTime>2023-04-25 20:19:33 UTC</createdTime>
+<ownerDesignName>dmd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2940015D-359D-81E2-69AD-FBA5166C437F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1A8AFEE1-FF37-0472-EF51-4C8D6B6B9766" name="move3">
+<createdBy>usuario</createdBy>
+<createdTime>2023-04-25 20:19:41 UTC</createdTime>
+<ownerDesignName>dmd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BB8DAF6D-7131-94EA-61A6-8B3CEFFF5AD6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FF54D73F-3573-9D9C-2A7B-5F4D88032ECD" name="move4">
+<createdBy>usuario</createdBy>
+<createdTime>2023-04-25 20:19:48 UTC</createdTime>
+<ownerDesignName>dmd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3A9E4ED4-0FAF-F134-D018-C771F0DA3392"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AA7B988D-40B2-2138-CB36-21CC4131652D" name="object">
+<createdBy>usuario</createdBy>
+<createdTime>2023-04-25 20:28:08 UTC</createdTime>
+<ownerDesignName>dmd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0AA63C45-DDEE-E2A4-A2F8-F8D3EFC0F0AC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
