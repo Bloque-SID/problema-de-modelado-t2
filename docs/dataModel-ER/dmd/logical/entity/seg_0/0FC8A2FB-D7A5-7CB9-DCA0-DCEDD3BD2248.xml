@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0FC8A2FB-D7A5-7CB9-DCA0-DCEDD3BD2248" name="BattleSet">
+<createdBy>usuario</createdBy>
+<createdTime>2023-04-25 20:43:16 UTC</createdTime>
+<generatorID>B06B0D1B-809F-5B50-9C61-401954ABF161</generatorID>
+<ownerDesignName>dmd</ownerDesignName>
+<engineerTo>
+<item key="07EFF974-1626-F660-56AE-06603DBAA287" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Pokemon ID" id="D926EB68-87B6-23A9-DFC8-49AFB3425006">
+<createdBy>usuario</createdBy>
+<createdTime>2023-04-25 20:43:16 UTC</createdTime>
+<generatorID>93DE1ED1-3614-B6EA-7DF9-797EBAEB490C</generatorID>
+<ownerDesignName>dmd</ownerDesignName>
+<engineerTo>
+<item key="07EFF974-1626-F660-56AE-06603DBAA287" value="true"/>
+</engineerTo>
+<referedAttribute>702A1F5A-F716-FCFE-321B-5C0C590D89F7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="move1" id="AB6766F4-689E-56F8-24D7-7F46A798FF2F">
+<createdBy>usuario</createdBy>
+<createdTime>2023-04-25 20:43:16 UTC</createdTime>
+<generatorID>81985492-DCC4-7402-9898-D0EA4650A7EF</generatorID>
+<ownerDesignName>dmd</ownerDesignName>
+<engineerTo>
+<item key="07EFF974-1626-F660-56AE-06603DBAA287" value="true"/>
+</engineerTo>
+<referedAttribute>403127DD-8EC2-CFDA-CB71-80A271B736CF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="move2" id="2B152292-158F-350F-2201-2F8C1BCE283B">
+<createdBy>usuario</createdBy>
+<createdTime>2023-04-25 20:43:16 UTC</createdTime>
+<generatorID>38452FDD-A0CB-EF52-C5D1-C2A742A0FFD5</generatorID>
+<ownerDesignName>dmd</ownerDesignName>
+<engineerTo>
+<item key="07EFF974-1626-F660-56AE-06603DBAA287" value="true"/>
+</engineerTo>
+<referedAttribute>403127DD-8EC2-CFDA-CB71-80A271B736CF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="move3" id="36300B8B-8B7D-0082-C109-C59ABE7C2118">
+<createdBy>usuario</createdBy>
+<createdTime>2023-04-25 20:43:16 UTC</createdTime>
+<generatorID>FC5F5FC3-B985-4139-BFCE-174B42B344FE</generatorID>
+<ownerDesignName>dmd</ownerDesignName>
+<engineerTo>
+<item key="07EFF974-1626-F660-56AE-06603DBAA287" value="true"/>
+</engineerTo>
+<referedAttribute>403127DD-8EC2-CFDA-CB71-80A271B736CF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="move4" id="E1442BB9-5618-06C7-EE3A-CF91816B9D67">
+<createdBy>usuario</createdBy>
+<createdTime>2023-04-25 20:43:16 UTC</createdTime>
+<generatorID>E69B0212-A505-367C-CCA0-C184025F1810</generatorID>
+<ownerDesignName>dmd</ownerDesignName>
+<engineerTo>
+<item key="07EFF974-1626-F660-56AE-06603DBAA287" value="true"/>
+</engineerTo>
+<referedAttribute>403127DD-8EC2-CFDA-CB71-80A271B736CF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Object ID" id="BB40D0D7-6770-1659-AC39-54701DB8235A">
+<createdBy>usuario</createdBy>
+<createdTime>2023-04-25 20:43:16 UTC</createdTime>
+<generatorID>610E4437-8F0D-A4D4-9735-DE4E038C3B56</generatorID>
+<ownerDesignName>dmd</ownerDesignName>
+<engineerTo>
+<item key="07EFF974-1626-F660-56AE-06603DBAA287" value="true"/>
+</engineerTo>
+<referedAttribute>947FDC00-B2AB-65CF-065C-673AD2E40E69</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

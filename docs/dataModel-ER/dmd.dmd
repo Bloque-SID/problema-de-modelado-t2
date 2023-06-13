@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="dmd" id="B6B23548-AA6C-19B4-9046-452D662DB1B5" version="3.5">
+<createdBy>dvb20</createdBy>
+<createdTime>2023-04-13 00:04:17 UTC</createdTime>
+<ownerDesignName>dmd</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>B6B23548-AA6C-19B4-9046-452D662DB1B5</designId>
+</OSDM_Design>

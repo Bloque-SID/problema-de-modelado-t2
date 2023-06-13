@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="35057F1D-3356-6DF1-A1E4-13C45D3DC5EF" name="Weaknesses and Strengths">
+<createdBy>usuario</createdBy>
+<createdTime>2023-04-23 18:04:04 UTC</createdTime>
+<ownerDesignName>dmd</ownerDesignName>
+<ordsAlias>table_10</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="7AC35E3F-FFCE-B2B7-032F-F64CD49A34F7">
+<createdBy>usuario</createdBy>
+<createdTime>2023-04-23 18:08:54 UTC</createdTime>
+<ownerDesignName>dmd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="damage_mult_to" id="3A9FEEE9-7A08-B405-8A47-DD418820D823">
+<createdBy>usuario</createdBy>
+<createdTime>2023-04-23 18:08:54 UTC</createdTime>
+<ownerDesignName>dmd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,2,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="damage_mult_from" id="DDDDE671-16BA-882E-9A07-C342E65F8502">
+<createdBy>usuario</createdBy>
+<createdTime>2023-04-23 18:08:54 UTC</createdTime>
+<ownerDesignName>dmd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,2,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Type_Main" id="016A84CD-E7D8-5106-513B-04C2BF9CA90C">
+<createdBy>usuario</createdBy>
+<createdTime>2023-04-23 18:09:22 UTC</createdTime>
+<ownerDesignName>dmd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9D63AD29-6508-156C-9CBE-98C5B62C44AD" referredColumn="B2AB7EBB-6E41-E714-A44F-A37C504E7A4D"/>
+</associations>
+</Column>
+<Column name="Type_Related" id="C1E9846D-7856-3365-8E42-5C2AA33C7812">
+<createdBy>usuario</createdBy>
+<createdTime>2023-04-23 18:09:41 UTC</createdTime>
+<ownerDesignName>dmd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="00539F2F-4C85-FB12-F40E-A29EDDB150C0" referredColumn="B2AB7EBB-6E41-E714-A44F-A37C504E7A4D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4B792E77-98AC-B3F0-0067-28250136CAE9" name="Weaknesses and Strengths_PK">
+<createdBy>usuario</createdBy>
+<createdTime>2023-04-23 18:08:54 UTC</createdTime>
+<ownerDesignName>dmd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7AC35E3F-FFCE-B2B7-032F-F64CD49A34F7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C66EA419-43FA-6E05-C9D4-D6A3D3D871CD" name="type_main">
+<createdBy>usuario</createdBy>
+<createdTime>2023-04-23 18:09:22 UTC</createdTime>
+<ownerDesignName>dmd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="016A84CD-E7D8-5106-513B-04C2BF9CA90C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="131A84FB-533E-1F42-BC1C-0B4093243405" name="type_related">
+<createdBy>usuario</createdBy>
+<createdTime>2023-04-23 18:09:41 UTC</createdTime>
+<ownerDesignName>dmd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C1E9846D-7856-3365-8E42-5C2AA33C7812"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="02954726-6E61-7AC8-2864-A09A13BD523E" name="Pokedex">
+<createdBy>dvb20</createdBy>
+<createdTime>2023-04-13 09:52:32 UTC</createdTime>
+<ownerDesignName>dmd</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="6460C4C4-7A2B-5C86-44FE-E1A6C5D77F15">
+<createdBy>dvb20</createdBy>
+<createdTime>2023-04-13 09:53:42 UTC</createdTime>
+<ownerDesignName>dmd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="3844FD12-C35B-65BD-C590-E3F39D172985">
+<createdBy>dvb20</createdBy>
+<createdTime>2023-04-13 09:53:42 UTC</createdTime>
+<ownerDesignName>dmd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Region_ID" id="DC6F194C-DE8C-77DE-1125-69AC78795CF3">
+<createdBy>usuario</createdBy>
+<createdTime>2023-04-23 15:57:50 UTC</createdTime>
+<ownerDesignName>dmd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F3A07137-456A-E273-2D21-71D1C48E476B" referredColumn="F4BF0831-640C-CF89-EE62-8906A2DF17E2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3B120B5B-66B3-9D4C-8AB7-AC6B968964D0" name="POKEDEX_PK">
+<createdBy>dvb20</createdBy>
+<createdTime>2023-04-13 09:53:42 UTC</createdTime>
+<ownerDesignName>dmd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6460C4C4-7A2B-5C86-44FE-E1A6C5D77F15"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FBA5D9C3-359A-CAE5-5867-6848B1B8FD51" name="region">
+<createdBy>usuario</createdBy>
+<createdTime>2023-04-23 15:57:50 UTC</createdTime>
+<ownerDesignName>dmd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DC6F194C-DE8C-77DE-1125-69AC78795CF3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

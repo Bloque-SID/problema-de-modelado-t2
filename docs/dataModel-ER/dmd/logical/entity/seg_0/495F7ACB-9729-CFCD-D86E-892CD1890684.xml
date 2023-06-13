@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="495F7ACB-9729-CFCD-D86E-892CD1890684" name="Move">
+<createdBy>dvb20</createdBy>
+<createdTime>2023-04-13 09:59:16 UTC</createdTime>
+<generatorID>D6C2239B-BB69-98D1-A107-4FBFEC6EC6C9</generatorID>
+<ownerDesignName>dmd</ownerDesignName>
+<engineerTo>
+<item key="07EFF974-1626-F660-56AE-06603DBAA287" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="403127DD-8EC2-CFDA-CB71-80A271B736CF">
+<createdBy>dvb20</createdBy>
+<createdTime>2023-04-13 09:59:16 UTC</createdTime>
+<generatorID>4D85B7A8-2790-A4FA-F4A5-BA43817760D7</generatorID>
+<ownerDesignName>dmd</ownerDesignName>
+<engineerTo>
+<item key="07EFF974-1626-F660-56AE-06603DBAA287" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name" id="6948A575-EF77-3C0E-8095-A4C471A593A0">
+<createdBy>dvb20</createdBy>
+<createdTime>2023-04-13 09:59:16 UTC</createdTime>
+<generatorID>C8AE3897-7641-CAF1-72A1-BE6792615140</generatorID>
+<ownerDesignName>dmd</ownerDesignName>
+<engineerTo>
+<item key="07EFF974-1626-F660-56AE-06603DBAA287" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="power" id="326E96A1-7514-DE87-1506-1DCEA4A99FC2">
+<createdBy>dvb20</createdBy>
+<createdTime>2023-04-13 09:59:16 UTC</createdTime>
+<generatorID>42B14276-4CBE-233A-4058-915664AA4907</generatorID>
+<ownerDesignName>dmd</ownerDesignName>
+<engineerTo>
+<item key="07EFF974-1626-F660-56AE-06603DBAA287" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="accuracy" id="8DE7904F-7CA9-39AF-2692-B43808487378">
+<createdBy>dvb20</createdBy>
+<createdTime>2023-04-13 09:59:16 UTC</createdTime>
+<generatorID>F85503F7-7471-B9E2-2BA3-6A538EA34093</generatorID>
+<ownerDesignName>dmd</ownerDesignName>
+<engineerTo>
+<item key="07EFF974-1626-F660-56AE-06603DBAA287" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PRECICSION" id="A88EA47B-C3AD-022B-0FD6-EC86CA2CCEF5">
+<createdBy>dvb20</createdBy>
+<createdTime>2023-04-13 09:59:16 UTC</createdTime>
+<generatorID>409BBDD3-9743-2446-4F34-7CFC3F76EF86</generatorID>
+<ownerDesignName>dmd</ownerDesignName>
+<engineerTo>
+<item key="07EFF974-1626-F660-56AE-06603DBAA287" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Type ID" id="1B88A2AC-9A4C-B585-F3A9-7A7FF22D3865">
+<createdBy>usuario</createdBy>
+<createdTime>2023-04-23 18:16:20 UTC</createdTime>
+<generatorID>10193801-1243-8CA7-0675-7510D873B1DD</generatorID>
+<ownerDesignName>dmd</ownerDesignName>
+<engineerTo>
+<item key="07EFF974-1626-F660-56AE-06603DBAA287" value="true"/>
+</engineerTo>
+<referedAttribute>810ACBBE-0182-3A31-AE8A-C8B26C3477D7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E4DE2FD2-294E-2D2A-5B13-C996F43AC4D0" name="ATAQUE PK">
+<createdBy>dvb20</createdBy>
+<createdTime>2023-04-13 09:59:16 UTC</createdTime>
+<generatorID>3986D291-3320-B621-C715-5C8A2A5413D4</generatorID>
+<ownerDesignName>dmd</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="07EFF974-1626-F660-56AE-06603DBAA287" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>403127DD-8EC2-CFDA-CB71-80A271B736CF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="64819FC6-8A84-F6BA-D38D-572DF1F65F8D" name="Trainner">
+<createdBy>dvb20</createdBy>
+<createdTime>2023-04-13 10:00:03 UTC</createdTime>
+<ownerDesignName>dmd</ownerDesignName>
+<engineerTo>
+<item key="07EFF974-1626-F660-56AE-06603DBAA287" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="D0849B09-A41A-47E3-EAB0-9612EED8C373">
+<createdBy>dvb20</createdBy>
+<createdTime>2023-04-13 10:00:19 UTC</createdTime>
+<ownerDesignName>dmd</ownerDesignName>
+<engineerTo>
+<item key="07EFF974-1626-F660-56AE-06603DBAA287" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name" id="73127910-2A28-E31E-4E1E-23231F8CFCCF">
+<createdBy>dvb20</createdBy>
+<createdTime>2023-04-13 10:00:34 UTC</createdTime>
+<ownerDesignName>dmd</ownerDesignName>
+<engineerTo>
+<item key="07EFF974-1626-F660-56AE-06603DBAA287" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="GENERO" id="8231BEE8-153F-658A-5CD1-722232120AB2">
+<createdBy>dvb20</createdBy>
+<createdTime>2023-04-13 10:00:57 UTC</createdTime>
+<ownerDesignName>dmd</ownerDesignName>
+<engineerTo>
+<item key="07EFF974-1626-F660-56AE-06603DBAA287" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EDAD" id="7DB348FB-28C6-DA06-EC97-32840CF48D84">
+<createdBy>dvb20</createdBy>
+<createdTime>2023-04-13 10:01:01 UTC</createdTime>
+<ownerDesignName>dmd</ownerDesignName>
+<engineerTo>
+<item key="07EFF974-1626-F660-56AE-06603DBAA287" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="UBICACION" id="72D442E2-697D-6279-45EC-2E3F0D4418D6">
+<createdBy>dvb20</createdBy>
+<createdTime>2023-04-13 10:01:19 UTC</createdTime>
+<ownerDesignName>dmd</ownerDesignName>
+<engineerTo>
+<item key="07EFF974-1626-F660-56AE-06603DBAA287" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1FBF9349-3C60-B59D-97F5-C57689F4482A" name="ENTRENADOR PK">
+<createdBy>dvb20</createdBy>
+<createdTime>2023-04-13 10:00:40 UTC</createdTime>
+<ownerDesignName>dmd</ownerDesignName>
+<engineerTo>
+<item key="07EFF974-1626-F660-56AE-06603DBAA287" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D0849B09-A41A-47E3-EAB0-9612EED8C373</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

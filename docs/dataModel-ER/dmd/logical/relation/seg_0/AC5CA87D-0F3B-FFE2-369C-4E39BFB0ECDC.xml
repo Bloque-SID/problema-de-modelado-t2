@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="EQUIPO_POKEMON" directorySegmentName="seg_0" id="AC5CA87D-0F3B-FFE2-369C-4E39BFB0ECDC">
+<createdBy>dvb20</createdBy>
+<createdTime>2023-04-13 10:15:19 UTC</createdTime>
+<ownerDesignName>dmd</ownerDesignName>
+<engineerTo>
+<item key="07EFF974-1626-F660-56AE-06603DBAA287" value="true"/>
+</engineerTo>
+<sourcePk>1FBF9349-3C60-B59D-97F5-C57689F4482A</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>64819FC6-8A84-F6BA-D38D-572DF1F65F8D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>98E7B76F-0F14-526E-534A-A3974C090017</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
